@@ -20,9 +20,9 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '7553044241:AAHCfm9YTs2f1byhD4eCyVEnyEcreT0
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS','2115698950').split()]
 USERNAME = environ.get('USERNAME', "https://t.me/studu01") # ADMIN USERNAME
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002343557268'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+K2kgCBgaat80YWQ9')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002499106132').split()]
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002382985887'))
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/fullmovizdownload')
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002144221664').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://mandibasanti76:mandibasanti76@baadsha.0t8tf.mongodb.net/?retryWrites=true&w=majority&appName=Baadsha")
